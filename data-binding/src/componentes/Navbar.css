@@ -1,0 +1,36 @@
+/* Estilo general del navbar */
+nav {
+  display: flex;
+  justify-content: center; /* Centrar los enlaces */
+  align-items: center;
+  background-color: #5b8c85; /* Verde pastel */
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo de los enlaces */
+nav a {
+  color: white; /* Texto blanco */
+  text-decoration: none;
+  margin: 0 15px; /* Espaciado entre enlaces */
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease; /* Transición suave */
+  padding: 10px 15px; /* Área clicable más grande */
+  border-radius: 5px;
+}
+
+/* Efecto hover */
+nav a:hover {
+  background-color: #8ab6d6; /* Azul pastel */
+  color: #f7f6f2; /* Fondo claro */
+  transform: scale(1.1); /* Efecto de zoom ligero */
+}
+
+/* Enlace activo */
+nav a.active {
+  background-color: #f0f4f8; /* Fondo pastel */
+  color: #5b8c85; /* Texto verde pastel */
+  border: 2px solid #8ab6d6; /* Borde azul claro */
+}

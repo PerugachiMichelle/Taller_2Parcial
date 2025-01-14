@@ -1,0 +1,86 @@
+/* Estilo general del contenedor */
+div {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Texto oscuro */
+    padding: 20px;
+    background-color: #f7f6f2; /* Fondo pastel claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #5b8c85; /* Verde pastel */
+    margin-bottom: 20px;
+}
+
+/* Estilo de los inputs y select */
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra interna */
+    transition: border 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #8ab6d6; /* Azul pastel */
+    outline: none;
+}
+
+/* Botón */
+button {
+    background-color: #8ab6d6; /* Azul pastel */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #5b8c85; /* Verde pastel */
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #8ab6d6; /* Azul pastel */
+    color: white;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Zebra striping para filas */
+tr:nth-child(even) td {
+    background-color: #f0f4f8; /* Fondo gris claro */
+}
